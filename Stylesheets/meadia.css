@@ -80,6 +80,11 @@
 
     }
 
+    .Explore-Card .Explore-Img div {
+        top: 50%;
+        left: 90%;
+    }
+
 
 }
 
@@ -158,9 +163,12 @@
         color: #3A3A3A;
     }
 
+    .Explore-Container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
-
-
+    }
 
 }
 
@@ -232,7 +240,7 @@
     .home-Items .Items-container {
         flex-wrap: wrap;
     }
-
+   
 }
 
 
@@ -275,12 +283,21 @@
         flex-wrap: wrap;
     }
 
-
-
-    .Explore-Container .Explore-info {
-     padding: 0;
+       .Explore-Container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
     }
+    .Explore-info .Explore-btn {
+    width: 176px;
+    height: 48px;
+    background-color: #B88E2F;
+    display: flex;
+    align-items: center;
+    left: 10%;
+    margin-top: 20px;
+}
 
 }
 
